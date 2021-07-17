@@ -103,15 +103,25 @@
 }
 
 @media only screen and (max-width: 55em) {
+  .tab button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
   .tabcontent {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width: 60%;
   }
   .tabcontent-image {
     padding-top: 3rem;
+    width: 100%;
   }
   .tabcontent-info {
     margin-top: 2rem;
+    margin-left: unset;
   }
 }

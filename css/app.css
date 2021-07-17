@@ -167,11 +167,12 @@ nav.nav {
 .hero-content {
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  min-height: 70vh;
   justify-content: center;
   margin-left: 10%;
-  width: max(40rem, 40%);
+  width: max(20%, 40%);
   color: #f3f1e7;
+  margin-bottom: 1rem;
 }
 
 .hero-content h1 {
@@ -343,9 +344,9 @@ nav.nav {
   text-transform: capitalize;
 }
 .rewards-subtitle {
-  width: max(300px, 40%);
+  width: 45%;
   margin: 2rem auto;
-  font-size: clamp(0.8rem, 1.8rem, 4rem);
+  font-size: clamp(1%, 1.8rem, 4rem);
   text-align: center;
   font-weight: 600;
 }
@@ -511,6 +512,10 @@ nav.nav {
     margin-right: 3rem !important;
   }
 
+  .banner h2 {
+    margin-left: unset;
+  }
+
   .nav--left > a:not(:first-of-type),
   .nav--right {
     display: none;
@@ -553,5 +558,14 @@ nav.nav {
   }
   .rewards-grid {
     grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  }
+  .getting-started-content {
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    gap: 3rem;
+    grid-auto-rows: -webkit-min-content;
+    grid-auto-rows: min-content;
+  }
+  .rewards-subtitle {
+    width: 100%;
   }
 }
