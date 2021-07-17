@@ -1,0 +1,17 @@
+.error-icon,
+.success-icon {
+  margin: 0 2rem;
+  width: 1.6rem;
+  height: auto;
+}
+.special-message {
+  display: flex;
+}
+.error-message {
+  color: red;
+  font-size: 1.2rem;
+}
+.success-message {
+  color: #4ab99c;
+  font-size: 1.2rem;
+}
