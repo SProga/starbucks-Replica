@@ -153,15 +153,16 @@ nav.nav {
 }
 
 .hero {
-  min-height: 80vh;
+  max-height: 80vh;
   background-color: #1e3932;
   overflow: hidden;
 }
 .hero--splash {
   background-image: url("../imgs/xl-hero-desktop_2021.png");
-  background-position: -10rem 50%;
+  background-position: -15rem 50%;
   background-size: 120%;
   background-repeat: no-repeat;
+  height: 100%;
 }
 
 .hero-content {
