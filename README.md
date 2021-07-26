@@ -10,4 +10,6 @@ the demo website was only tested in google chrome and firefox.
 
 compatibility with safari is not tested , images may or may not appear.
 
-https://sproga.github.io/starbucks-Replica/
+click image below to see demo:-
+
+<a href="https://sproga.github.io/starbucks-Replica/"><img src="starbucks" /></a>
