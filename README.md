@@ -12,4 +12,4 @@ compatibility with safari is not tested , images may or may not appear.
 
 click image below to see demo:-
 
-<a href="https://sproga.github.io/starbucks-Replica/"><img src="starbucks" /></a>
+<a href="https://sproga.github.io/starbucks-Replica/"><img src="starbucks.png" /></a>
