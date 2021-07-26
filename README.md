@@ -6,9 +6,7 @@ This project was built using vanilla JS and CSS as a challenge from https://www.
 
 The website is fully responsive . (desktop-first)
 
-the demo website was only tested in google chrome and firefox. 
-
-compatibility with safari is not tested , images may or may not appear.
+the demo website was only tested in google chrome ,firefox and safari. 
 
 click image below to see demo:-
 
